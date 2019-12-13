@@ -17,7 +17,7 @@ export default {
   name: 'home',
   data(){
     return{
-
+      needData:[],
     }
   },
   methods: {
