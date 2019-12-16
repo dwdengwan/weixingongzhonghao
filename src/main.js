@@ -5,6 +5,8 @@ import store from './store'
 //引入vant组件
 import Vant from 'vant';
 import 'vant/lib/index.css';
+//引入rem转换
+import 'lib-flexible/flexible.js'
 
 Vue.use(Vant);
 
