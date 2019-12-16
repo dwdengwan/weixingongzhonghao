@@ -12,6 +12,7 @@
         <van-grid-item icon="photo-o" text="vum界面" />
       </van-grid>
     </div>
+    <div>{{needData[0]}}</div>
   </div>
 </template>
 
@@ -21,7 +22,7 @@ export default {
   name: 'home',
   data() {
     return {
-      needData: [],
+      needData: ['1'],
     }
   },
   methods: {
