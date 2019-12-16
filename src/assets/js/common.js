@@ -12,6 +12,9 @@ const common = {
       return true;
     }
     return false;
+  },
+  takeChange:function() {
+    console.log('111');
   }
 };
 
