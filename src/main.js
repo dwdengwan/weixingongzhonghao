@@ -7,6 +7,8 @@ import Vant from 'vant';
 import 'vant/lib/index.css';
 //引入rem转换
 import 'lib-flexible/flexible.js'
+//引入公共js
+import "@/assets/js/common.js";
 
 Vue.use(Vant);
 

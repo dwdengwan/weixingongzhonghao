@@ -16,12 +16,22 @@ const routes = [
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/notBind.vue')
   },
   {
-    path: "/login",
-    name: 'login',
-    component:() => import('../views/login/index.vue')
+    path: "/notBind",//未绑定
+    name: 'notBind',
+    component:() => import('../views/notBind.vue')
+  },
+  {
+    path: "/waterPay",//水费查缴单户
+    name: 'waterPay',
+    component:() => import('../views/waterPay/index.vue')
+  },
+  {
+    path: "/moreWaterPay",//水费查缴多户
+    name: 'moreWaterPay',
+    component:() => import('../views/waterPay/moreWaterPay.vue')
   }
 ]
 
